@@ -105,14 +105,40 @@ h1 {
   opacity: 0.80;
 }
 
-.freemanImageStudio3 {
+.kiwayneProjects {
   position: relative;
   min-height: 500px;
-  background-image: url('../images/marcFreemanDannyBrown.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.75;
+}
+
+.projectImage1 {
+  background-image: url('../images/festiivo.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.projectImage2 {
+  background-image: url('../images/elfy.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.projectImage3 {
+  background-image: url('../images/adventureTime.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;}
+
+.projectImage4 {
+  background-image: url('../images/londonsBurning2.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
 }
 
 .freemanImageStudio4 {
@@ -137,7 +163,7 @@ h1 {
   opacity: 0.75;
 }
 
-.freemanBio, .freemanBio2, .freemanBio3  {
+.kiwayneBio, .kiwayneBio2, .kiwayneBio3  {
   height: auto;
   /*background-color: #525C65;*/
   color: black;
@@ -149,7 +175,7 @@ h1 {
   font-size: 20px;
 }
 
-.freemanBio4 {
+.kiwayneBio4 {
   height: auto;
   background-color: #525C65;
   color: white;
