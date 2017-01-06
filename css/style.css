@@ -80,10 +80,10 @@ a.contact {
     color: blue;
 }
 
-a:hover {
+/*a:hover {
     color: #EE6363;
     font-size: 30px;
-}
+}*/
 
 h1 {
   font-size: 48px;
@@ -121,7 +121,7 @@ h1 {
 
 .kiwayneProjects {
   position: relative;
-  min-height: 500px;
+  /*min-height: 500px;*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,6 +135,26 @@ h1 {
   min-height: 300px;
 }
 
+.projectImage1:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.projectImage1 p {
+  display:none;
+}
+
+.projectImage1:hover p {
+  display:block;
+  position: absolute;
+  color: white;
+  bottom: -230px;
+  left: 16%;
+  font-size: 50px;
+}
+
 .projectImage2 {
   background-image: url('../images/elfy.png');
   background-position: center;
@@ -142,11 +162,53 @@ h1 {
   min-height: 300px;
 }
 
+.projectImage2:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.projectImage2 p {
+  display:none;
+}
+
+.projectImage2:hover p {
+  display:block;
+  position: absolute;
+  color: black;
+  bottom: -240px;
+  right: 21%;
+  font-size: 50px;
+}
+
 .projectImage3 {
   background-image: url('../images/adventureTime.png');
   background-position: center;
   background-size: cover;
-  min-height: 300px;}
+  min-height: 300px;
+}
+
+.projectImage3:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.projectImage3 p {
+  display:none;
+}
+
+.projectImage3:hover p {
+  display:block;
+  position: absolute;
+  color: yellow;
+  bottom: -860px;
+  left: 18%;
+  font-size: 70px;
+}
+
 
 .projectImage4 {
   background-image: url('../images/londonsBurning2.png');
@@ -155,27 +217,27 @@ h1 {
   min-height: 300px;
 }
 
-.freemanImageStudio4 {
-  position: relative;
-  min-height: 100%;
-  background-image: url('../images/Type2marc.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.75;
+.projectImage4:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
 }
 
-.freemanImageStudio5 {
-  position: relative;
-  min-height: 100%;
-  background-image: url('../images/Type2console2.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.75;
+.projectImage4 p {
+  display:none;
 }
+
+.projectImage4:hover p {
+  display:block;
+  position: absolute;
+  color: white;
+  bottom: -790px;
+  right: 10%;
+  font-size: 50px;
+  z-index: 10;
+}
+
 
 .kiwayneBio, .kiwayneBio2, .kiwayneBio3  {
   height: auto;
@@ -223,4 +285,12 @@ height: 60px;
   background-color: black;
   height: 400px;
   color: white;
+}
+
+
+img:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
 }
