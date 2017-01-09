@@ -1,6 +1,7 @@
 body {
   margin:0;
   padding:0;
+
 }
 
 div {
@@ -46,10 +47,24 @@ nav {
   height:70px;
   /*background-color: #525C65;*/
   /*border-bottom: 2px solid #EE6363;*/
+
+}
+
+
+.portrait {
+  max-width: 450px;
+  position: relative;;
+  max-height: 450px;
+  float: right;
+  opacity: 0.6;
+  padding-top: 6px;
+  border-radius: 45px/45px;
+  padding-right: 200px;
+
 }
 
 ul {
-  float: right;
+  float: left;
   list-style-type: none;
 }
 
@@ -72,12 +87,16 @@ a, u {
 }
 
 a {
-  color: white;
+  color:#6DECAF;
 }
 
 a.contact {
     text-decoration: underline;
     color: blue;
+}
+
+.ig-b- .ig-b-48 {
+  padding-top: 20px;
 }
 
 /*a:hover {
@@ -86,9 +105,12 @@ a.contact {
 }*/
 
 h1 {
-  font-size: 48px;
+  font-size: 25px;
   width: 50%;
-  color: white;
+  color:#6DECAF;
+  display: inline;
+  text-align: center;
+  padding-left: 150px;
 }
 
 .sunsetImageItaly {
@@ -132,7 +154,7 @@ h1 {
   background-image: url('../images/londonlandmarks.png');
   background-position: center;
   background-size: cover;
-  min-height: 300px;
+  min-height: 375px;
 }
 
 .projectImage1:hover {
@@ -150,16 +172,17 @@ h1 {
   display:block;
   position: absolute;
   color: white;
-  bottom: -230px;
+  text-shadow: 2px 2px black;
+  bottom: -200px;
   left: 16%;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .projectImage2 {
   background-image: url('../images/fireworks.png');
   background-position: center;
   background-size: cover;
-  min-height: 300px;
+  min-height: 375px;
 }
 
 .projectImage2:hover {
@@ -176,17 +199,18 @@ h1 {
 .projectImage2:hover p {
   display:block;
   position: absolute;
-  color: black;
-  bottom: -240px;
+  color:white;
+  text-shadow: 2px 2px black;
+  bottom: -140px;
   right: 21%;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .projectImage3 {
   background-image: url('../images/bored.jpg');
   background-position: center;
   background-size: cover;
-  min-height: 300px;
+  min-height: 340px;
 }
 
 .projectImage3:hover {
@@ -203,10 +227,11 @@ h1 {
 .projectImage3:hover p {
   display:block;
   position: absolute;
-  color: yellow;
+  color: #57bd8c;
+  text-shadow: 2px 2px black;
   bottom: -860px;
   left: 18%;
-  font-size: 70px;
+  font-size: 40px;
 }
 
 
@@ -214,7 +239,7 @@ h1 {
   background-image: url('../images/sp-agency.png');
   background-position: center;
   background-size: cover;
-  min-height: 300px;
+  min-height: 340px;
 }
 
 .projectImage4:hover {
@@ -231,7 +256,8 @@ h1 {
 .projectImage4:hover p {
   display:block;
   position: absolute;
-  color: white;
+  color: #E37222;
+  text-shadow: 2px 2px black;
   bottom: -790px;
   right: 10%;
   font-size: 50px;
@@ -253,8 +279,8 @@ h1 {
 
 .lukeBio4 {
   height: auto;
-  background-color: #D13A8F;
-  color: white;
+  background-color: #6DECAF;
+  color: #6DECAF;
   text-align: center;
   padding: 15px 80px;
   font-family: 'Boogaloo', cursive;
@@ -265,12 +291,12 @@ h1 {
 
 .containerOne {
   position: absolute;
-  background-color: black;
-  color: white;
+  background-color: #6DECAF;
+  color: #6DECAF;
   padding: 18px;
   left:500px;
   top: 30%;
-  width: 300px;
+  width: 200px;
   height: 100px;
   font-family: 'Fjalla One', sans-serif;
 }
