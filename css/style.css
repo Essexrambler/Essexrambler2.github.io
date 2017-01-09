@@ -119,7 +119,7 @@ h1 {
   opacity: 0.80;
 }
 
-.kiwayneProjects {
+.lukeProjects {
   position: relative;
   /*min-height: 500px;*/
   background-attachment: fixed;
@@ -239,7 +239,7 @@ h1 {
 }
 
 
-.kiwayneBio, .kiwayneBio2, .kiwayneBio3  {
+.lukeBio, .lukeBio2, .lukeBio3  {
   height: auto;
   /*background-color: #525C65;*/
   color: black;
@@ -251,15 +251,15 @@ h1 {
   font-size: 20px;
 }
 
-.kiwayneBio4 {
+.lukeBio4 {
   height: auto;
-  background-color: #525C65;
+  background-color: #D13A8F;
   color: white;
   text-align: center;
   padding: 15px 80px;
   font-family: 'Boogaloo', cursive;
-  border-top: 2px solid #EE6363;
-  border-bottom: 2px solid #EE6363;
+  border-top: 2px solid #462ADE;
+  border-bottom: 2px solid #462ADE;
   font-size: 20px;
 }
 
