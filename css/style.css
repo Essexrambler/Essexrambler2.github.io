@@ -91,10 +91,10 @@ h1 {
   color: white;
 }
 
-.kiwayneImageJapan {
+.sunsetImageItaly {
   position: relative;
   min-height: 100%;
-  background-image: url('../images/japankiwayne.jpg');
+  background-image: url('../images/sunset.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -150px;
@@ -129,7 +129,7 @@ h1 {
 }
 
 .projectImage1 {
-  background-image: url('../images/festiivo.png');
+  background-image: url('../images/londonlandmarks.png');
   background-position: center;
   background-size: cover;
   min-height: 300px;
@@ -156,7 +156,7 @@ h1 {
 }
 
 .projectImage2 {
-  background-image: url('../images/elfy.png');
+  background-image: url('../images/fireworks.png');
   background-position: center;
   background-size: cover;
   min-height: 300px;
@@ -183,7 +183,7 @@ h1 {
 }
 
 .projectImage3 {
-  background-image: url('../images/adventureTime.png');
+  background-image: url('../images/bored.jpg');
   background-position: center;
   background-size: cover;
   min-height: 300px;
@@ -211,7 +211,7 @@ h1 {
 
 
 .projectImage4 {
-  background-image: url('../images/londonsBurning2.png');
+  background-image: url('../images/sp-agency.png');
   background-position: center;
   background-size: cover;
   min-height: 300px;
