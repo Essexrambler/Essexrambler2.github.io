@@ -39,7 +39,8 @@ text-align: center;}
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
+  text-shadow: 1px 1px black;
 
 }
 
@@ -50,16 +51,31 @@ nav {
 
 }
 
+.about {
+  color: #6DECAF;
+  padding-top: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+  background-color:
+
+}
 
 .portrait {
-  max-width: 450px;
-  position: relative;;
-  max-height: 450px;
-  float: right;
+  max-width: 400px;
+  position: static;
+  max-height: 400px;
+  /*float: right;*/
   opacity: 0.6;
+  /*padding-right: 80px;*/
   padding-top: 6px;
-  border-radius: 45px/45px;
-  padding-right: 200px;
+  border-radius: 50%;
+  margin-left: 100px;
+  /*padding-right: 130px;*/
+  border-color: #6DECAF;
+  border-radius: 400px;
+   /*-webkit-border-radius: 300px;
+   -moz-border-radius: 300px;*/
 
 }
 
@@ -74,7 +90,7 @@ li {
   display: inline;
   line-height: 65px;
   font-size: 20px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
 }
 
 .nameLogo {
@@ -105,12 +121,12 @@ a.contact {
 }*/
 
 h1 {
-  font-size: 25px;
+  font-size: 20px;
   width: 50%;
   color:#6DECAF;
   display: inline;
   text-align: center;
-  padding-left: 150px;
+  padding-left: 100px;
 }
 
 .sunsetImageItaly {
@@ -201,7 +217,7 @@ h1 {
   position: absolute;
   color:white;
   text-shadow: 2px 2px black;
-  bottom: -140px;
+  bottom: -200px;
   right: 21%;
   font-size: 40px;
 }
@@ -258,9 +274,9 @@ h1 {
   position: absolute;
   color: #E37222;
   text-shadow: 2px 2px black;
-  bottom: -790px;
+  bottom: -860px;
   right: 10%;
-  font-size: 50px;
+  font-size: 40px;
   z-index: 10;
 }
 
@@ -268,13 +284,13 @@ h1 {
 .lukeBio, .lukeBio2, .lukeBio3  {
   height: auto;
   /*background-color: #525C65;*/
-  color: black;
+  color: #6DECAF;
   text-align: center;
   padding: 15px 80px;
-  font-family: 'Fjalla One', sans-serif;
-  /*border-top: 2px solid #EE6363;
-  border-bottom: 2px solid #EE6363;*/
-  font-size: 20px;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
+  text-shadow: 1px 1px black;
+  font-size: 25px;
+
 }
 
 .lukeBio4 {
@@ -298,7 +314,7 @@ h1 {
   top: 30%;
   width: 200px;
   height: 100px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
 }
 
 .logo {
