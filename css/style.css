@@ -45,9 +45,10 @@ body, html {
 }
 
 nav {
-  height:70px;
-  /*background-color: #525C65;*/
-  /*border-bottom: 2px solid #EE6363;*/
+  height:50px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid #EE6363;
 
 }
 
@@ -62,7 +63,7 @@ nav {
 }
 
 .portrait {
-  max-width: 400px;
+  max-width: 300px;
   position: static;
   max-height: 400px;
   /*float: right;*/
@@ -70,26 +71,31 @@ nav {
   /*padding-right: 80px;*/
   padding-top: 6px;
   border-radius: 50%;
-  margin-left: 100px;
-  /*padding-right: 130px;*/
+  /*margin-left: 100px;*/
+  /*padding-right: 100px;*/
   border-color: #6DECAF;
-  border-radius: 400px;
+  /*border-radius: 400px;*/
+  /*text-align: center;*/
+
    /*-webkit-border-radius: 300px;
    -moz-border-radius: 300px;*/
 
 }
 
 ul {
-  float: left;
+  text-align: center;
   list-style-type: none;
+  width: 100%;
+
+
 }
 
 
 li {
-  padding-right: 20px;
+  padding-right: 50px;
   display: inline;
   line-height: 65px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Sue+Ellen+Francisco', sans-serif;
 }
 
@@ -122,11 +128,14 @@ a.contact {
 
 h1 {
   font-size: 20px;
-  width: 50%;
+  /*width: 30%;*/
   color:#6DECAF;
-  display: inline;
-  text-align: center;
-  padding-left: 100px;
+  /*display: inline;*/
+  /*text-align: center;*/
+  /*padding-right: 350px;*/
+  padding-top: 20px;
+  float: left;
+
 }
 
 .sunsetImageItaly {
@@ -136,14 +145,14 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -150px;
-  opacity: 0.80;
+  /*opacity: 0.80;*/
   overflow-y: visible;
 }
 
 .heroLeft {
   width: 50%;
-  float: left;
-  padding-right:
+  float: right;
+
 }
 
 
@@ -174,10 +183,10 @@ h1 {
 }
 
 .projectImage1:hover {
-  opacity: 0.6;
-  transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.5s ease-in-out;
+  opacity: 0.7;
+  transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
 }
 
 .projectImage1 p {
@@ -188,7 +197,7 @@ h1 {
   display:block;
   position: absolute;
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px blue;
   bottom: -200px;
   left: 16%;
   font-size: 40px;
@@ -203,9 +212,9 @@ h1 {
 
 .projectImage2:hover {
   opacity: 0.6;
-  transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.04s ease-in-out;
+  -webkit-transition: opacity 0.04s ease-in-out;
 }
 
 .projectImage2 p {
@@ -231,9 +240,9 @@ h1 {
 
 .projectImage3:hover {
   opacity: 0.6;
-  transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.04s ease-in-out;
+  -moz-transition: opacity 0.04s ease-in-out;
+  -webkit-transition: opacity 0.04s ease-in-out;
 }
 
 .projectImage3 p {
@@ -260,9 +269,9 @@ h1 {
 
 .projectImage4:hover {
   opacity: 0.6;
-  transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.04s ease-in-out;
+  -moz-transition: opacity 0.04s ease-in-out;
+  -webkit-transition: opacity 0.04s ease-in-out;
 }
 
 .projectImage4 p {
@@ -289,7 +298,7 @@ h1 {
   padding: 15px 80px;
   font-family: 'Sue+Ellen+Francisco', sans-serif;
   text-shadow: 1px 1px black;
-  font-size: 25px;
+  font-size: 20px;
 
 }
 
@@ -299,7 +308,7 @@ h1 {
   color: #6DECAF;
   text-align: center;
   padding: 15px 80px;
-  font-family: 'Boogaloo', cursive;
+  font-family: 'Sue+Ellen+Francisco', sans-serif;
   border-top: 2px solid #462ADE;
   border-bottom: 2px solid #462ADE;
   font-size: 20px;
@@ -315,6 +324,7 @@ h1 {
   width: 200px;
   height: 100px;
   font-family: 'Sue+Ellen+Francisco', sans-serif;
+  font-size: 20px;
 }
 
 .logo {
