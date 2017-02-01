@@ -176,7 +176,7 @@ h1 {
 }
 
 .projectImage1 {
-  background-image: url('../images/londonlandmarks.png');
+  background-image: url('../images/londonlandmarks.jpg');
   background-position: center;
   background-size: cover;
   min-height: 375px;
@@ -204,7 +204,7 @@ h1 {
 }
 
 .projectImage2 {
-  background-image: url('../images/fireworks.png');
+  background-image: url('../images/fireworks.jpg');
   background-position: center;
   background-size: cover;
   min-height: 375px;
@@ -261,7 +261,7 @@ h1 {
 
 
 .projectImage4 {
-  background-image: url('../images/sp-agency.png');
+  background-image: url('../images/sp-agency.jpg');
   background-position: center;
   background-size: cover;
   min-height: 340px;
