@@ -1,4 +1,4 @@
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
 
 body {
@@ -33,10 +33,10 @@ margin: 15px;}
 width: 100%;
 text-align: center;}
 
-/* [class*="col-"] {
+[class*="col-"] {
     float: left;
     padding: 15px;
-} */
+}
 
 
 body, html {
@@ -47,13 +47,14 @@ body, html {
 
 }
 
-/* nav {
-  height:50px;
+nav {
+  height:100px;
   width: 100%;
   background-color: white;
   border-bottom: 2px solid #EE6363;
+  font-size: 30px;
 
-} */
+}
 
 nav {
   display: flex;
@@ -61,17 +62,51 @@ nav {
   justify-content: center;
 }
 
+/* button {
+  margin-top: 20px;
+  background: red;
+  border: none;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #1abc9c;
+  color: #1abc9c;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+      font-family: 'Roboto', sans-serif;
+} */
+
+.container {
+  font-size:20px;
+  margin: 20px;
+  text-decoration: none;
+  color: #6DECAF;
+  font-family: raleway;
+  /* border-bottom: 1px solid #52c9aa; */
+  transition: color 0.5s ease-out;
+  text-align: center;
+
+}
+
 a {
-  font-size:40px;
+  font-size:20px;
   margin: 20px;
   text-decoration: none;
   color: #ffb6c1;
   font-family: raleway;
-  border-bottom: 1px solid #52c9aa;
+  /* border-bottom: 1px solid #52c9aa; */
   transition: color 0.5s ease-out;
 }
 
-@media screen and (max-width: 920px) {
+/* @media screen and (max-width: 920px) {
   nav {
     justify-content: center;
   }
@@ -85,8 +120,8 @@ a {
   nav {
     flex-direction: column;
     align-items: center;
-    background: #0077be;
-  }
+    /* background: #0077be; */
+  /* } */
 
 .about {
   color: #6DECAF;
@@ -98,18 +133,18 @@ a {
 
 }
 
-.portrait {
+/* .portrait {
   max-width: 300px;
   position: static;
-  max-height: 400px;
+  max-height: 400px; */
   /*float: right;*/
-  opacity: 0.6;
+  /* opacity: 0.6; */
   /*padding-right: 80px;*/
-  padding-top: 6px;
-  border-radius: 50%;
+  /* padding-top: 6px;
+  border-radius: 50%; */
   /*margin-left: 100px;*/
   /*padding-right: 100px;*/
-  border-color: #6DECAF;
+  /* border-color: #6DECAF; */
   /*border-radius: 400px;*/
   /*text-align: center;*/
 
@@ -150,27 +185,30 @@ a {
 
 a.contact {
     text-decoration: underline;
-    color: blue;
+    color: #6DECAF;
+
 }
 
 .ig-b- .ig-b-48 {
   padding-top: 20px;
 }
 
-/*a:hover {
+ nav a:hover {
     color: #EE6363;
     font-size: 30px;
-}*/
+}
 
 h1 {
   font-size: 30px;
   /*width: 30%;*/
   color:#6DECAF;
-  /*display: inline;*/
-  /*text-align: center;*/
-  /*padding-right: 350px;*/
+  /* display: inline;
+  text-align: center; */
+  background-color: white;
+  margin: 0;
+  /* padding-right: 350px; */
   padding-top: 20px;
-  float: left;
+
 }
 
 .sunsetImageItaly {
@@ -184,11 +222,10 @@ h1 {
   /*overflow-y: visible;*/
 }
 
-.heroLeft {
+.heroCentre {
   width: 50%;
-  /*float: right;*/
   text-align: center;
-
+  float: right;
 }
 
 
