@@ -106,6 +106,8 @@ a {
   transition: color 0.5s ease-out;
 }
 
+
+
 /* @media screen and (max-width: 920px) {
   nav {
     justify-content: center;
@@ -185,7 +187,7 @@ a {
 
 a.contact {
     text-decoration: underline;
-    color: #6DECAF;
+    color: white;
 
 }
 
@@ -202,12 +204,15 @@ h1 {
   font-size: 30px;
   /*width: 30%;*/
   color:#6DECAF;
-  /* display: inline;
-  text-align: center; */
-  background-color: white;
+  display: inline;
+  text-align: center;
+   /* background-color: white; */ */
   margin: 0;
   /* padding-right: 350px; */
   padding-top: 20px;
+  float:left;
+  padding-left: 280px;
+
 
 }
 
@@ -223,9 +228,9 @@ h1 {
 }
 
 .heroCentre {
-  width: 50%;
+  width: 80%;
   text-align: center;
-  float: right;
+  float:center;
 }
 
 
@@ -264,6 +269,7 @@ h1 {
 
 .projectImage1 p {
   display:none;
+  text-align: center;
 }
 
 .projectImage1:hover p {
@@ -297,7 +303,7 @@ h1 {
 .projectImage2:hover p {
   display:block;
   position: absolute;
-  color:white;
+  color: #E37222;
   text-shadow: 2px 2px black;
   bottom: -200px;
   right: 21%;
@@ -327,7 +333,7 @@ h1 {
   position: absolute;
   color: #57bd8c;
   text-shadow: 2px 2px black;
-  bottom: -860px;
+  bottom: -980px;
   left: 18%;
   font-size: 40px;
 }
@@ -355,8 +361,8 @@ h1 {
   display:block;
   position: absolute;
   color: #E37222;
-  text-shadow: 2px 2px black;
-  bottom: -860px;
+  text-shadow: 2px 2px white;
+  bottom: -980px;
   right: 10%;
   font-size: 40px;
   z-index: 10;
@@ -408,7 +414,7 @@ height: 60px;
 
 .footer {
   background-color: black;
-  height: 400px;
+  height: 450px;
   color: white;
 }
 
