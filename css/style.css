@@ -50,8 +50,8 @@ body, html {
 nav {
   height:100px;
   width: 100%;
-  background-color: white;
-  border-bottom: 2px solid #EE6363;
+  background-color: #b25b76;
+  border-bottom: 2px solid #998f92;
   font-size: 30px;
 
 }
@@ -88,7 +88,7 @@ nav {
   font-size:20px;
   margin: 20px;
   text-decoration: none;
-  color: #6DECAF;
+  color: #998f92;
   font-family: raleway;
   /* border-bottom: 1px solid #52c9aa; */
   transition: color 0.5s ease-out;
@@ -100,7 +100,7 @@ a {
   font-size:20px;
   margin: 20px;
   text-decoration: none;
-  color: #ffb6c1;
+  color: #998f92;
   font-family: raleway;
   /* border-bottom: 1px solid #52c9aa; */
   transition: color 0.5s ease-out;
@@ -154,7 +154,7 @@ a {
    -moz-border-radius: 300px;*/
 
    .about {
-     color: #6DECAF;
+     color: #998f92;
      padding-top: 500px;
      padding-left: 100px;
      padding-right: 100px;
@@ -190,7 +190,7 @@ a, u {
 }
 
 a {
-  color:#6DECAF;
+  color:#998f92;
 }
 
 a.contact {
@@ -204,14 +204,14 @@ a.contact {
 }
 
  nav a:hover {
-    color: #EE6363;
+    color: #dd3213;
     font-size: 30px;
 }
 
 h1 {
   font-size: 30px;
   /*width: 30%;*/
-  color:#6DECAF;
+  color:#6d595f;
   display: inline;
   text-align: center;
    /* background-color: white; */ */
@@ -270,9 +270,9 @@ h1 {
 
 .projectImage1:hover {
   opacity: 0.7;
-  transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1ss ease-in-out;
 }
 
 .projectImage1 p {
@@ -284,9 +284,11 @@ h1 {
   display:block;
   position: absolute;
   color: white;
+  font-weight: bold;
+  font-style: normal;
   text-shadow: 2px 2px blue;
   bottom: -200px;
-  left: 16%;
+  left: 6%;
   font-size: 40px;
 }
 
@@ -299,9 +301,9 @@ h1 {
 
 .projectImage2:hover {
   opacity: 0.6;
-  transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.04s ease-in-out;
-  -webkit-transition: opacity 0.04s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
 }
 
 .projectImage2 p {
@@ -312,9 +314,11 @@ h1 {
   display:block;
   position: absolute;
   color: #E37222;
+  font-weight: bold;
+  font-style: normal;
   text-shadow: 2px 2px black;
   bottom: -200px;
-  right: 21%;
+  right: 11%;
   font-size: 40px;
 }
 
@@ -327,9 +331,9 @@ h1 {
 
 .projectImage3:hover {
   opacity: 0.6;
-  transition: opacity 0.04s ease-in-out;
-  -moz-transition: opacity 0.04s ease-in-out;
-  -webkit-transition: opacity 0.04s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
 }
 
 .projectImage3 p {
@@ -342,7 +346,9 @@ h1 {
   color: #57bd8c;
   text-shadow: 2px 2px black;
   bottom: -980px;
-  left: 18%;
+  font-weight: bold;
+  font-style: normal;
+  left: 12%;
   font-size: 40px;
 }
 
@@ -356,9 +362,9 @@ h1 {
 
 .projectImage4:hover {
   opacity: 0.6;
-  transition: opacity 0.04s ease-in-out;
-  -moz-transition: opacity 0.04s ease-in-out;
-  -webkit-transition: opacity 0.04s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
 }
 
 .projectImage4 p {
@@ -372,6 +378,8 @@ h1 {
   text-shadow: 2px 2px white;
   bottom: -980px;
   right: 10%;
+  font-weight: bold;
+  font-style: normal;
   font-size: 40px;
   z-index: 10;
 }
@@ -380,7 +388,7 @@ h1 {
 .lukeBio, .lukeBio2, .lukeBio3  {
   height: auto;
   /*background-color: #525C65;*/
-  color: #6DECAF;
+  color: #998f92;
   text-align: center;
   padding: 15px 80px;
   font-family: 'Sue+Ellen+Francisco', sans-serif;
@@ -421,14 +429,21 @@ height: 60px;
 }
 
 .footer {
-  background-color: black;
+  background-color: #6d595f;
   height: 450px;
-  color: white;
+  color: #421d2f;
 }
 
+div .col-4 {
+  color: white;
+  opacity: 0.7;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
 
 img:hover {
-    opacity: 0.6;
+    opacity: 0.7;
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
